@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What's in My Fridge?</title>
+  <meta name="description" content="Escribe los ingredientes que tienes en casa y descubre qué cocinar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Recetas con lo que ya tienes</p>
+      <h1>What's in My Fridge?</h1>
+      <p class="lead">Agrega los ingredientes que tienes en casa y te mostramos qué puedes preparar.</p>
+
+      <form id="ingredient-form" class="add-form" autocomplete="off">
+        <label class="sr-only" for="ingredient-input">Ingrediente</label>
+        <input id="ingredient-input" type="text" list="ingredient-options"
+               placeholder="Ej. huevo, jitomate, queso…" maxlength="40" required>
+        <datalist id="ingredient-options"></datalist>
+        <button type="submit" class="btn btn-primary">Agregar</button>
+      </form>
+
+      <div class="pantry" aria-live="polite">
+        <ul id="ingredient-list" class="chips" aria-label="Tus ingredientes"></ul>
+        <button id="clear-all" class="link-btn" type="button" hidden>Vaciar todo</button>
+      </div>
+
+      <div class="quick" id="quick-add" aria-label="Ingredientes comunes">
+        <span class="quick-label">Rápido:</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="toolbar" aria-label="Filtros">
+      <div class="seg" id="match-filters" role="group" aria-label="Filtrar por coincidencia">
+        <button type="button" class="seg-btn" data-filter="some" aria-pressed="true">Con coincidencias</button>
+        <button type="button" class="seg-btn" data-filter="almost" aria-pressed="false">Faltan 1–2</button>
+        <button type="button" class="seg-btn" data-filter="ready" aria-pressed="false">Listas para cocinar</button>
+        <button type="button" class="seg-btn" data-filter="all" aria-pressed="false">Todas</button>
+        <button type="button" class="seg-btn" data-filter="favs" aria-pressed="false">♥ Favoritas <span id="fav-count" class="count">0</span></button>
+      </div>
+
+      <label class="select-wrap">
+        <span class="sr-only">Categoría</span>
+        <select id="category-filter">
+          <option value="all">Todas las categorías</option>
+        </select>
+      </label>
+    </section>
+
+    <p id="results-info" class="results-info" aria-live="polite"></p>
+
+    <section id="recipe-grid" class="grid" aria-label="Recetas"></section>
+
+    <div id="empty" class="empty" hidden>
+      <div class="empty-emoji" aria-hidden="true">🥬</div>
+      <h2 id="empty-title">Nada por aquí todavía</h2>
+      <p id="empty-text"></p>
+    </div>
+  </main>
+
+  <footer class="foot wrap">
+    <p>Hecho con JavaScript, JSON y CSS · Tus ingredientes y favoritas se guardan en este navegador.</p>
+  </footer>
+
+  <dialog id="recipe-dialog" class="dialog" aria-labelledby="dlg-title">
+    <article>
+      <div class="dlg-media" id="dlg-media"></div>
+      <div class="dlg-body">
+        <div class="dlg-head">
+          <div>
+            <p class="eyebrow" id="dlg-cat"></p>
+            <h2 id="dlg-title"></h2>
+          </div>
+          <div class="dlg-actions">
+            <button id="dlg-fav" class="icon-btn" type="button" aria-pressed="false" aria-label="Guardar en favoritas">♡</button>
+            <button id="dlg-close" class="icon-btn" type="button" aria-label="Cerrar">✕</button>
+          </div>
+        </div>
+        <p class="meta" id="dlg-meta"></p>
+
+        <h3>Ingredientes</h3>
+        <ul id="dlg-ingredients" class="ing-list"></ul>
+
+        <h3>Preparación</h3>
+        <ol id="dlg-steps" class="steps"></ol>
+      </div>
+    </article>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

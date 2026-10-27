@@ -1,0 +1,389 @@
+[
+  {
+    "id": 1,
+    "name": "Huevos revueltos con jitomate",
+    "emoji": "🍳",
+    "photo": "scrambled,eggs,tomato",
+    "category": "Desayuno",
+    "time": 10,
+    "difficulty": "Fácil",
+    "servings": 2,
+    "ingredients": [
+      { "name": "huevo", "qty": "4 piezas" },
+      { "name": "jitomate", "qty": "1 pieza mediana" },
+      { "name": "cebolla", "qty": "1/4 de pieza" },
+      { "name": "aceite", "qty": "1 cucharada", "basic": true },
+      { "name": "sal", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Pica finamente la cebolla y el jitomate.",
+      "Calienta el aceite en un sartén y acitrona la cebolla 2 minutos.",
+      "Agrega el jitomate y cocina 3 minutos hasta que suelte su jugo.",
+      "Bate los huevos con sal y viértelos en el sartén.",
+      "Revuelve con suavidad hasta que cuajen. Sirve de inmediato."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Quesadillas de queso",
+    "emoji": "🧀",
+    "photo": "quesadilla,cheese",
+    "category": "Snack",
+    "time": 10,
+    "difficulty": "Fácil",
+    "servings": 2,
+    "ingredients": [
+      { "name": "tortilla", "qty": "6 piezas" },
+      { "name": "queso", "qty": "200 g (Oaxaca o mozzarella)" },
+      { "name": "aceite", "qty": "1 cucharadita", "basic": true }
+    ],
+    "steps": [
+      "Calienta un comal o sartén a fuego medio.",
+      "Coloca una tortilla y agrega el queso deshebrado en la mitad.",
+      "Dobla la tortilla y cocina 2 minutos por lado hasta que el queso se derrita.",
+      "Sirve caliente con salsa al gusto."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pasta con ajo y aceite",
+    "emoji": "🍝",
+    "photo": "spaghetti,garlic",
+    "category": "Comida",
+    "time": 20,
+    "difficulty": "Fácil",
+    "servings": 2,
+    "ingredients": [
+      { "name": "pasta", "qty": "200 g de espagueti" },
+      { "name": "ajo", "qty": "4 dientes" },
+      { "name": "chile de árbol", "qty": "2 piezas" },
+      { "name": "perejil", "qty": "1 puñito" },
+      { "name": "aceite", "qty": "4 cucharadas", "basic": true },
+      { "name": "sal", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Cuece la pasta en agua con sal siguiendo el tiempo del empaque. Reserva 1/2 taza del agua de cocción.",
+      "Mientras tanto, lamina el ajo y desmenuza el chile de árbol.",
+      "Calienta el aceite a fuego bajo y dora el ajo con el chile sin que se queme.",
+      "Agrega la pasta escurrida y un poco del agua reservada; mezcla 1 minuto.",
+      "Termina con perejil picado."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Arroz frito con huevo y verduras",
+    "emoji": "🍚",
+    "photo": "fried,rice,egg",
+    "category": "Comida",
+    "time": 20,
+    "difficulty": "Fácil",
+    "servings": 3,
+    "ingredients": [
+      { "name": "arroz", "qty": "2 tazas cocido (del día anterior)" },
+      { "name": "huevo", "qty": "2 piezas" },
+      { "name": "zanahoria", "qty": "1 pieza" },
+      { "name": "chícharo", "qty": "1/2 taza" },
+      { "name": "salsa de soya", "qty": "2 cucharadas" },
+      { "name": "cebolla", "qty": "1/4 de pieza" },
+      { "name": "aceite", "qty": "2 cucharadas", "basic": true }
+    ],
+    "steps": [
+      "Corta la zanahoria y la cebolla en cubitos pequeños.",
+      "Saltea las verduras con el aceite a fuego alto 4 minutos.",
+      "Empuja las verduras a un lado, rompe los huevos en el sartén y revuélvelos.",
+      "Agrega el arroz y la salsa de soya; mezcla y saltea 5 minutos más.",
+      "Sirve caliente."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pollo a la plancha con limón",
+    "emoji": "🍗",
+    "photo": "grilled,chicken,lemon",
+    "category": "Comida",
+    "time": 25,
+    "difficulty": "Fácil",
+    "servings": 2,
+    "ingredients": [
+      { "name": "pechuga de pollo", "qty": "2 piezas (350 g)" },
+      { "name": "limón", "qty": "2 piezas" },
+      { "name": "ajo", "qty": "2 dientes" },
+      { "name": "orégano", "qty": "1 cucharadita" },
+      { "name": "aceite", "qty": "1 cucharada", "basic": true },
+      { "name": "sal", "qty": "al gusto", "basic": true },
+      { "name": "pimienta", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Aplana las pechugas para que tengan grosor parejo.",
+      "Marínalas 10 minutos con jugo de limón, ajo picado, orégano, sal y pimienta.",
+      "Calienta un sartén con aceite a fuego medio-alto.",
+      "Cocina el pollo 5-6 minutos por lado hasta que esté dorado y bien cocido.",
+      "Deja reposar 3 minutos antes de rebanar."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ensalada de atún con aguacate",
+    "emoji": "🥗",
+    "photo": "tuna,salad,avocado",
+    "category": "Comida",
+    "time": 10,
+    "difficulty": "Fácil",
+    "servings": 2,
+    "ingredients": [
+      { "name": "atún", "qty": "1 lata (140 g)" },
+      { "name": "jitomate", "qty": "2 piezas" },
+      { "name": "cebolla", "qty": "1/2 pieza" },
+      { "name": "aguacate", "qty": "1 pieza" },
+      { "name": "limón", "qty": "1 pieza" },
+      { "name": "sal", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Escurre el atún y desmenúzalo en un tazón.",
+      "Pica el jitomate y la cebolla; agrégalos al atún.",
+      "Añade el jugo del limón y sal.",
+      "Incorpora el aguacate en cubos justo antes de servir.",
+      "Acompaña con tostadas o galletas saladas."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sopa de verduras",
+    "emoji": "🥕",
+    "photo": "vegetable,soup",
+    "category": "Comida",
+    "time": 35,
+    "difficulty": "Fácil",
+    "servings": 4,
+    "ingredients": [
+      { "name": "zanahoria", "qty": "2 piezas" },
+      { "name": "papa", "qty": "2 piezas" },
+      { "name": "calabacita", "qty": "2 piezas" },
+      { "name": "cebolla", "qty": "1/2 pieza" },
+      { "name": "ajo", "qty": "1 diente" },
+      { "name": "caldo de pollo", "qty": "1 litro" },
+      { "name": "aceite", "qty": "1 cucharada", "basic": true },
+      { "name": "sal", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Corta todas las verduras en cubos medianos.",
+      "Acitrona la cebolla y el ajo en una olla con aceite.",
+      "Agrega zanahoria y papa; cocina 3 minutos.",
+      "Vierte el caldo y deja hervir 15 minutos.",
+      "Añade la calabacita y cocina 8 minutos más. Rectifica la sal."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tacos de papa con chorizo",
+    "emoji": "🌮",
+    "photo": "tacos,potato,chorizo",
+    "category": "Comida",
+    "time": 30,
+    "difficulty": "Media",
+    "servings": 3,
+    "ingredients": [
+      { "name": "tortilla", "qty": "8 piezas" },
+      { "name": "papa", "qty": "3 piezas medianas" },
+      { "name": "chorizo", "qty": "150 g" },
+      { "name": "cebolla", "qty": "1/4 de pieza" },
+      { "name": "sal", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Cuece las papas en cubos en agua con sal hasta que estén suaves (10 min). Escúrrelas.",
+      "Dora el chorizo en un sartén, sin aceite extra, desmenuzándolo.",
+      "Agrega la cebolla picada y las papas; mezcla y cocina 5 minutos.",
+      "Calienta las tortillas y rellénalas con la mezcla.",
+      "Sirve con salsa y cilantro si tienes."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Omelette de queso y champiñones",
+    "emoji": "🍄",
+    "photo": "omelette,mushroom",
+    "category": "Desayuno",
+    "time": 15,
+    "difficulty": "Media",
+    "servings": 1,
+    "ingredients": [
+      { "name": "huevo", "qty": "3 piezas" },
+      { "name": "queso", "qty": "60 g" },
+      { "name": "champiñón", "qty": "100 g" },
+      { "name": "mantequilla", "qty": "1 cucharada" },
+      { "name": "sal", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Lamina los champiñones y saltéalos 4 minutos en la mitad de la mantequilla. Reserva.",
+      "Bate los huevos con una pizca de sal.",
+      "Derrite el resto de la mantequilla y vierte los huevos a fuego medio-bajo.",
+      "Cuando casi cuajen, agrega el queso y los champiñones en una mitad.",
+      "Dobla el omelette y cocina 1 minuto más."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Frijoles refritos con queso",
+    "emoji": "🫘",
+    "photo": "refried,beans,cheese",
+    "category": "Cena",
+    "time": 15,
+    "difficulty": "Fácil",
+    "servings": 2,
+    "ingredients": [
+      { "name": "frijol", "qty": "2 tazas cocidos con caldo" },
+      { "name": "cebolla", "qty": "1/4 de pieza" },
+      { "name": "queso fresco", "qty": "80 g" },
+      { "name": "aceite", "qty": "1 cucharada", "basic": true },
+      { "name": "sal", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Acitrona la cebolla picada en el aceite.",
+      "Agrega los frijoles con un poco de su caldo y machácalos mientras se cocinan.",
+      "Cocina 8 minutos, moviendo, hasta lograr la consistencia deseada.",
+      "Sirve con queso fresco desmoronado encima."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Sándwich tostado de jamón y queso",
+    "emoji": "🥪",
+    "photo": "grilled,cheese,sandwich,ham",
+    "category": "Cena",
+    "time": 10,
+    "difficulty": "Fácil",
+    "servings": 2,
+    "ingredients": [
+      { "name": "pan", "qty": "4 rebanadas" },
+      { "name": "jamón", "qty": "4 rebanadas" },
+      { "name": "queso", "qty": "2 rebanadas" },
+      { "name": "mantequilla", "qty": "1 cucharada" }
+    ],
+    "steps": [
+      "Unta mantequilla por fuera de las rebanadas de pan.",
+      "Arma los sándwiches con jamón y queso por dentro.",
+      "Tuesta en un sartén a fuego medio 3 minutos por lado, hasta que el queso se derrita."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Guacamole clásico",
+    "emoji": "🥑",
+    "photo": "guacamole",
+    "category": "Snack",
+    "time": 10,
+    "difficulty": "Fácil",
+    "servings": 4,
+    "ingredients": [
+      { "name": "aguacate", "qty": "2 piezas" },
+      { "name": "jitomate", "qty": "1 pieza" },
+      { "name": "cebolla", "qty": "1/4 de pieza" },
+      { "name": "cilantro", "qty": "1 puñito" },
+      { "name": "limón", "qty": "1 pieza" },
+      { "name": "chile serrano", "qty": "1 pieza" },
+      { "name": "sal", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Pica finamente la cebolla, el jitomate, el cilantro y el chile.",
+      "Machaca los aguacates con un tenedor, dejando algunos trozos.",
+      "Mezcla todo con el jugo de limón y sal.",
+      "Sirve de inmediato con totopos."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Pasta cremosa con champiñones",
+    "emoji": "🍽️",
+    "photo": "creamy,mushroom,pasta",
+    "category": "Cena",
+    "time": 25,
+    "difficulty": "Media",
+    "servings": 2,
+    "ingredients": [
+      { "name": "pasta", "qty": "200 g" },
+      { "name": "champiñón", "qty": "200 g" },
+      { "name": "crema", "qty": "1/2 taza" },
+      { "name": "ajo", "qty": "2 dientes" },
+      { "name": "mantequilla", "qty": "1 cucharada" },
+      { "name": "sal", "qty": "al gusto", "basic": true },
+      { "name": "pimienta", "qty": "al gusto", "basic": true }
+    ],
+    "steps": [
+      "Cuece la pasta en agua con sal; escúrrela.",
+      "Saltea el ajo picado en mantequilla 30 segundos.",
+      "Agrega los champiñones laminados y cocina 6 minutos hasta que doren.",
+      "Baja el fuego, añade la crema, sal y pimienta; cocina 2 minutos.",
+      "Mezcla con la pasta y sirve."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Hotcakes caseros",
+    "emoji": "🥞",
+    "photo": "pancakes,breakfast",
+    "category": "Desayuno",
+    "time": 20,
+    "difficulty": "Fácil",
+    "servings": 3,
+    "ingredients": [
+      { "name": "harina", "qty": "1 taza" },
+      { "name": "huevo", "qty": "1 pieza" },
+      { "name": "leche", "qty": "3/4 de taza" },
+      { "name": "polvo para hornear", "qty": "2 cucharaditas" },
+      { "name": "azúcar", "qty": "2 cucharadas" },
+      { "name": "mantequilla", "qty": "1 cucharada" }
+    ],
+    "steps": [
+      "Mezcla la harina, el azúcar y el polvo para hornear.",
+      "Agrega el huevo, la leche y la mantequilla derretida; bate hasta que no haya grumos.",
+      "Calienta un sartén antiadherente y vierte 1/4 de taza de mezcla por hotcake.",
+      "Voltea cuando salgan burbujas y cocina 1 minuto más.",
+      "Sirve con miel o fruta."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Licuado de plátano y avena",
+    "emoji": "🍌",
+    "photo": "banana,oat,smoothie",
+    "category": "Desayuno",
+    "time": 5,
+    "difficulty": "Fácil",
+    "servings": 2,
+    "ingredients": [
+      { "name": "plátano", "qty": "2 piezas" },
+      { "name": "leche", "qty": "1 taza" },
+      { "name": "avena", "qty": "1/2 taza" },
+      { "name": "miel", "qty": "1 cucharada" }
+    ],
+    "steps": [
+      "Pela los plátanos y colócalos en la licuadora.",
+      "Agrega leche, avena y miel.",
+      "Licúa 1 minuto hasta que quede suave. Sirve frío."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Chilaquiles verdes",
+    "emoji": "🌶️",
+    "photo": "chilaquiles",
+    "category": "Desayuno",
+    "time": 20,
+    "difficulty": "Media",
+    "servings": 2,
+    "ingredients": [
+      { "name": "tortilla", "qty": "8 piezas (o totopos)" },
+      { "name": "salsa verde", "qty": "1 taza" },
+      { "name": "queso fresco", "qty": "60 g" },
+      { "name": "crema", "qty": "2 cucharadas" },
+      { "name": "cebolla", "qty": "1/4 de pieza" },
+      { "name": "aceite", "qty": "1/2 taza para freír", "basic": true }
+    ],
+    "steps": [
+      "Corta las tortillas en triángulos y fríelas hasta que estén doradas. Escúrrelas.",
+      "Calienta la salsa verde en un sartén 3 minutos.",
+      "Agrega los totopos y mezcla 1 minuto, solo para que se bañen.",
+      "Sirve con queso fresco, crema y cebolla en aros."
+    ]
+  }
+]
